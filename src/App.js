@@ -9,7 +9,17 @@ import {
 } from 'components/index';
 
 function App() {
-  return <div className='App'>test</div>;
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Services />
+      <Partners />
+      <Team />
+      <GetStart />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
